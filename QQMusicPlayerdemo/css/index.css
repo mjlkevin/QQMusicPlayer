@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    height: 45px;
+    background: #ff4f00;
+}
+.header .logo{
+    float: left;
+    margin-top: 5px;
+    margin-left: 20px;
+    opacity: 0.5;
+}
+.header .logo:hover{
+    opacity: 1;
+}
+.header .register {
+    float: right;
+    line-height: 45px;
+}
+.header .register li{
+    list-style: none;
+    float: left;
+    margin-right: 20px;
+    color: #ffffff;
+    opacity: 0.5;
+}
+.header .register li:hover{
+    opacity: 1;
+}
+.content{
+    width: 100%;
+    height: 865px;
+    background:#E55C3D;
+}
+.content .content_in{
+    width: 1200px;
+    height: 100%;
+    background: #afb1b3;
+    margin: 0 auto;
+}
+.content_in .content_left{
+    float: left;
+    width: 800px;
+    height: 100%;
+    background: #007DDC;
+}
+.content_left .content_toolbar{
+    width: 100%;
+    height:50px;
+    background: #000;
+}
+.content_toolbar span{
+    display: inline-block;
+    margin-right: 5px;
+    width: 122px;
+    height: 100%;
+    line-height: 45px;
+    text-align: center;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: white;
+    opacity: 0.5;
+}
+.content_toolbar span:hover{
+    opacity: 1;
+}
+.content_toolbar span i{
+    display: inline-block;
+    margin-right:3px;
+    width: 18px;
+    height: 18px;
+    vertical-align:-5px;
+}
+.content_toolbar span:nth-child(1) i{
+    background: url("../images/collection.png") no-repeat 0 0;
+}
+.content_toolbar span:nth-child(2) i{
+    background: url("../images/add.png") no-repeat 0 0;
+}
+.content_toolbar span:nth-child(3) i{
+    background: url("../images/download.png") no-repeat 0 0;
+}
+.content_toolbar span:nth-child(4) i{
+    background: url("../images/delete.png") no-repeat 0 0;
+}
+.content_toolbar span:nth-child(5) i{
+    background: url("../images/clear.png") no-repeat 0 0;
+}
+
+.content_left .content_list{
+    width: 100%;
+    height: 420px;
+    background: plum;
+
+}
+.content_list li div{
+    float: left;
+    color: #ffffff;
+    line-height: 50px;
+    opacity:0.8;
+
+}
+.content_list li{
+    list-style: none;
+    float: left;
+    width: 100%;
+    height: 50px;
+    background: orange;
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+    box-sizing: border-box;
+}
+.content_list .list_check{
+    width: 50px;
+    height: 100%;
+    background: #000;
+    text-align: center;
+}
+
+.content_list .list_check i{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #fff;
+}
+.content_list .list_checked i{
+    /*display: none;*/
+    background: url("../images/icon_checked.png") no-repeat 0 0;
+}
+.content_list li div{
+    float: left;
+    color: #fff;
+    line-height: 50px;
+}
+.content_list .list_number{
+    width: 20px;
+    height: 100%;
+    background: gray;
+}
+.content_list .list_name{
+    width: 50%;
+    height: 100%;
+    background: #cccccc;
+}
+.list_name .list_menu{
+    display: none;
+    float: right;
+    margin-top: 5px;
+}
+.list_menu a{
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    margin-top:5px;
+    background-color: #ffffff;
+}
+.list_menu a:nth-child(1){
+    background: url("../images/play.png") no-repeat 0 0;
+}
+.list_menu a:nth-child(2){
+    background: url("../images/add.png") no-repeat 0 0;
+}
+.list_menu a:nth-child(3){
+    background: url("../images/download.png") no-repeat 0 0;
+}
+.list_menu a:nth-child(4){
+    background: url("../images/share.png") no-repeat 0 0;
+}
+.content_list .list_singer{
+    width: 20%;
+    height: 100%;
+    background: pink;
+}
+.content_list .list_time a{
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    margin-top:5px;
+    float: left;
+    background:url("../images/delete (1).png")no-repeat 0 0;
+    display: none;
+}
+.content_in .content_right{
+    float: left;
+    width: 400px;
+    height: 100%;
+    background: #74ACCF;
+}
+.footer{
+    width: 100%;
+    height: 60px;
+    background:#f19a78;
+
+    /*让footer贴着底部*/
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.footer .footerin{
+    width: 1200px;
+    height: 100%;
+    background: plum;
+    margin: 0 auto;
+}
